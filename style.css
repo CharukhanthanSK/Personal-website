@@ -1,7 +1,10 @@
-body{
-  text-align:center;
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
 }
-img{
+
+img {
     width: 175px;
     margin-bottom: 50px;
     border-radius: 50%;
@@ -14,6 +17,7 @@ img{
     right: 0;
     bottom: 0;
     top: 0;
+    padding-top: 100px;
     background: linear-gradient(90deg, rgba(9, 223, 93, 1) 0%, rgba(252, 201, 0, 1) 50%, rgba(255, 70, 0, 1) 100%);
     display: table;
     width: 100%;
@@ -41,12 +45,10 @@ h2{
 h3{
     font-size: 50px;
     line-height: 1.2;
-    font-family: cursive;
-    font-weight: 300;
+    font-family: fantasy;
 }
 #bio{
-    padding: 400px;
-    padding-top: 1000px;
+    padding-top: 500px;
     background-color: orange;
 }
 .line{
@@ -81,4 +83,8 @@ p{
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
+}
+#myvideos{
+   background-color: coral; 
+   padding: 400px;
 }
