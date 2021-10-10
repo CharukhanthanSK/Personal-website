@@ -88,3 +88,9 @@ p{
    background-color: coral; 
    padding: 400px;
 }
+#contacts iframe{
+    width: 100%;
+}
+#contacts{
+    background-color: orange;
+}
